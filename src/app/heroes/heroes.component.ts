@@ -24,7 +24,6 @@ export class HeroesComponent implements OnInit {
         this.selectedHero = hero;
         this.messageService.add(`HeroService: Selected hero id=${hero.id}`);
         console.log("selected a hero!");
-        console.log("Is it going to the edit screen also??")
   }
   getHeroes(): void{
     this.heroService.getHeroes()
